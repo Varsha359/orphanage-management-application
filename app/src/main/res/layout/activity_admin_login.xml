@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fontFamily="sans-serif"
+    android:textColor="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/tv_admin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Email :" />
+
+    <EditText
+        android:id="@+id/et_admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/tv_admin_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Password :" />
+
+    <EditText
+        android:id="@+id/et_admin_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btn_admin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"
+        android:onClick="loginAdmin"
+        />
+
+    <TextView
+        android:id="@+id/tv_register_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="registerUser"
+        />
+
+
+</LinearLayout>

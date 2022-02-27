@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".EditAdmin"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_create_orphanage"
+            android:layout_width="107dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/img"
+            android:onClick="registerUser"/>
+
+        <Button
+            android:id="@+id/btn_create_orphanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="Create Orphanage"
+            android:onClick="registerUser"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/img_view_orphanage"
+            android:layout_width="107dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/view"
+            android:onClick="home"/>
+
+        <Button
+            android:id="@+id/btn_view_orphanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="View Orphanage"
+            android:onClick="home"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/img_update_orphanage"
+            android:layout_width="104dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/img_1" />
+
+        <Button
+            android:id="@+id/btn_update_orphanage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="Update Orphanage"
+            android:onClick="update"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/img_view_message"
+            android:layout_width="104dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/img_2" />
+
+        <Button
+            android:id="@+id/btn_view_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:text="View Message"
+            android:onClick="view"
+
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
